@@ -2,7 +2,13 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  root(): string {
-    return 'Hello World!';
+
+
+
+  root(): any {
+    return {
+      succes: 200,
+      data: 'Hello 6N',
+  };
   }
 }
