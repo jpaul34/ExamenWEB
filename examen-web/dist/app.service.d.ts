@@ -1,3 +1,3 @@
 export declare class AppService {
-    root(): string;
+    root(): any;
 }
