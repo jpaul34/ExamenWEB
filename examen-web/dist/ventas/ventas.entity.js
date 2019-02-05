@@ -10,12 +10,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
+const producto_entity_1 = require("../producto/producto.entity");
 let VentasEntity = class VentasEntity {
 };
 __decorate([
     typeorm_1.PrimaryGeneratedColumn(),
     __metadata("design:type", Number)
 ], VentasEntity.prototype, "id", void 0);
+__decorate([
+    typeorm_1.Index(),
+    typeorm_1.Column(),
+    __metadata("design:type", String)
+], VentasEntity.prototype, "nombre", void 0);
+__decorate([
+    typeorm_1.Column(),
+    __metadata("design:type", String)
+], VentasEntity.prototype, "fecha", void 0);
+__decorate([
+    typeorm_1.Column(),
+    __metadata("design:type", Number)
+], VentasEntity.prototype, "latitud", void 0);
+__decorate([
+    typeorm_1.Column(),
+    __metadata("design:type", Number)
+], VentasEntity.prototype, "longitud", void 0);
+__decorate([
+    typeorm_1.OneToMany(type => producto_entity_1.ProductoEntity, producto => producto.id),
+    __metadata("design:type", Array)
+], VentasEntity.prototype, "productos", void 0);
 VentasEntity = __decorate([
     typeorm_1.Entity('venta')
 ], VentasEntity);

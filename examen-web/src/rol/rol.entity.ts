@@ -17,3 +17,4 @@ export class RolEntity {
   )
   usuarios: UsuarioEntity[];
 }
+
