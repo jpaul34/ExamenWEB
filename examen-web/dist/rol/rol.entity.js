@@ -16,6 +16,11 @@ __decorate([
     typeorm_1.PrimaryGeneratedColumn(),
     __metadata("design:type", Number)
 ], RolEntity.prototype, "id", void 0);
+__decorate([
+    typeorm_1.Index(),
+    typeorm_1.Column(),
+    __metadata("design:type", String)
+], RolEntity.prototype, "nombre", void 0);
 RolEntity = __decorate([
     typeorm_1.Entity('rol')
 ], RolEntity);

@@ -6,4 +6,8 @@ export class RolEntity {
   @PrimaryGeneratedColumn()
   id: number;
 
+  @Index()
+  @Column()
+  nombre: string;
+
 }

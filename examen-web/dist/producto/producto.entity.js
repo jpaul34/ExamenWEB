@@ -10,12 +10,31 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
+const ventas_entity_1 = require("../ventas/ventas.entity");
+const tienda_entity_1 = require("../tienda/tienda.entity");
 let ProductoEntity = class ProductoEntity {
 };
 __decorate([
     typeorm_1.PrimaryGeneratedColumn(),
     __metadata("design:type", Number)
 ], ProductoEntity.prototype, "id", void 0);
+__decorate([
+    typeorm_1.Index(),
+    typeorm_1.Column(),
+    __metadata("design:type", String)
+], ProductoEntity.prototype, "nombre", void 0);
+__decorate([
+    typeorm_1.Column(),
+    __metadata("design:type", Number)
+], ProductoEntity.prototype, "precio", void 0);
+__decorate([
+    typeorm_1.OneToMany(type => ventas_entity_1.VentasEntity, venta => venta.id),
+    __metadata("design:type", Array)
+], ProductoEntity.prototype, "productos", void 0);
+__decorate([
+    typeorm_1.ManyToOne(type => tienda_entity_1.TiendaEntity, tienda => tienda.id),
+    __metadata("design:type", Array)
+], ProductoEntity.prototype, "tiendas", void 0);
 ProductoEntity = __decorate([
     typeorm_1.Entity('producto')
 ], ProductoEntity);
