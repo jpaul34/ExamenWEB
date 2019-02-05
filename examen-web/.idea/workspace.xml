@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98cb0649-9192-4a00-ba85-e88a51db7a24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.controller.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.controller.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.controller.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.controller.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.service.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.service.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.service.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.service.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ventaProductos/ventaProductos.controller.tx.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ventaProductos/ventaProductos.controller.tx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ventaProductos/ventaProductos.controller.tx.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ventaProductos/ventaProductos.controller.tx.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ventas/ventas.controller.tx.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ventas/ventas.controller.tx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ventas/ventas.controller.tx.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ventas/ventas.controller.tx.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ventas/ventas.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ventas/ventas.entity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ventas/ventas.entity.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ventas/ventas.entity.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tienda/tienda.controller.tx.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tienda/tienda.controller.tx.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tienda/tienda.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tienda/tienda.entity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usuario/usuario.controller.tx.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuario/usuario.controller.tx.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usuario/usuario.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuario/usuario.entity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ventaProductos/ventaProductos.controller.tx.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ventaProductos/ventaProductos.controller.tx.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ventas/ventas.controller.tx.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ventas/ventas.controller.tx.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ventas/ventas.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ventas/ventas.entity.ts" afterDir="false" />
-    </list>
+    <list default="true" id="98cb0649-9192-4a00-ba85-e88a51db7a24" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -325,7 +303,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\jx\ExamenWEB\examen-web\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="ts.external.directory.path" value="C:\jx\ExamenWEB\examen-web\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -359,28 +337,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549383286244</updated>
-      <workItem from="1549383288241" duration="3740000" />
+      <workItem from="1549383288241" duration="3895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3740000" />
+    <option name="totallyTimeSpent" value="3895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="TypeScript" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
