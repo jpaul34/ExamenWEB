@@ -1,15 +1,15 @@
 import {Module} from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { RolService } from './rol.service';
-import { RolEntity } from './rol.entity';
-import { ProductoController } from './rol.controller.tx';
+import { TiendaService } from './tienda.service';
+import { TiendaEntity } from './tienda.entity';
+import { ProductoController } from './tienda.controller.tx';
 
 @Module(
   {
     imports: [
       TypeOrmModule.forFeature(
         [
-          RolEntity,
+          TiendaEntity,
         ],
       ),
     ],
@@ -17,14 +17,14 @@ import { ProductoController } from './rol.controller.tx';
       ProductoController,
     ],
     providers: [
-      RolService,
+      TiendaService,
     ],
     exports: [
       // Servicios o modulos
-      RolService,
+      TiendaService,
     ],
   },
 )
-export class RolModule {
+export class TiendaModule {
 
 }

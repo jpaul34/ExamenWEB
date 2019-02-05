@@ -3,6 +3,6 @@ import {FindManyOptions, Repository} from 'typeorm';
 import {InjectRepository} from '@nestjs/typeorm';
 
 @Injectable()
-export class RolService {
+export class TiendaService {
 
 }
