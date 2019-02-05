@@ -8,28 +8,28 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
-const ventaProductos_service_1 = require("./ventaProductos.service");
-const rol_entity_1 = require("./rol.entity");
-const ventaProductos_controller_tx_1 = require("./ventaProductos.controller.tx");
-let RolModule = class RolModule {
+const ventas_service_1 = require("./ventas.service");
+const ventas_entity_1 = require("./ventas.entity");
+const ventas_controller_tx_1 = require("./ventas.controller.tx");
+let VentasModule = class VentasModule {
 };
-RolModule = __decorate([
+VentasModule = __decorate([
     common_1.Module({
         imports: [
             typeorm_1.TypeOrmModule.forFeature([
-                rol_entity_1.RolEntity,
+                ventas_entity_1.VentasEntity,
             ]),
         ],
         controllers: [
-            ventaProductos_controller_tx_1.ProductoController,
+            ventas_controller_tx_1.ProductoController,
         ],
         providers: [
-            ventaProductos_service_1.VentaProductosService,
+            ventas_service_1.VentasService,
         ],
         exports: [
-            ventaProductos_service_1.VentaProductosService,
+            ventas_service_1.VentasService,
         ],
     })
-], RolModule);
-exports.RolModule = RolModule;
-//# sourceMappingURL=rol.module.js.map
+], VentasModule);
+exports.VentasModule = VentasModule;
+//# sourceMappingURL=ventas.module.js.map

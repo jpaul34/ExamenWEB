@@ -1,13 +1,13 @@
 import {BadRequestException, Body, Controller, Get, Param, Post, Query, Res} from '@nestjs/common';
-import {RolService} from './rol.service';
+import {VentasService} from './ventas.service';
 import {__await} from 'tslib';
-import {RolEntity} from './rol.entity';
+import {VentasEntity} from './ventas.entity';
 import {FindManyOptions, Like} from 'typeorm';
 
 @Controller('rol')
 export class ProductoController{
 
-  constructor(private readonly _productoService: RolService) {
+  constructor(private readonly _productoService: VentasService) {
 
   }
 }
