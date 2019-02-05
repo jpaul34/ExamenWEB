@@ -9,15 +9,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
 const ventaProductos_service_1 = require("./ventaProductos.service");
-const rol_entity_1 = require("./rol.entity");
+const ventaProductos_entity_1 = require("./ventaProductos.entity");
 const ventaProductos_controller_tx_1 = require("./ventaProductos.controller.tx");
-let RolModule = class RolModule {
+let VentaProductosModule = class VentaProductosModule {
 };
-RolModule = __decorate([
+VentaProductosModule = __decorate([
     common_1.Module({
         imports: [
             typeorm_1.TypeOrmModule.forFeature([
-                rol_entity_1.RolEntity,
+                ventaProductos_entity_1.VentaProductosEntity,
             ]),
         ],
         controllers: [
@@ -30,6 +30,6 @@ RolModule = __decorate([
             ventaProductos_service_1.VentaProductosService,
         ],
     })
-], RolModule);
-exports.RolModule = RolModule;
-//# sourceMappingURL=rol.module.js.map
+], VentaProductosModule);
+exports.VentaProductosModule = VentaProductosModule;
+//# sourceMappingURL=ventaProductos.module.js.map
