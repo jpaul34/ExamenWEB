@@ -4,7 +4,7 @@ import {__await} from 'tslib';
 import {VentaProductosEntity} from './ventaProductos.entity';
 import {FindManyOptions, Like} from 'typeorm';
 
-@Controller('ventaProductos')
+@Controller('ventaProducto')
 export class ProductoController{
 
   constructor(private readonly _productoService: VentaProductosService) {

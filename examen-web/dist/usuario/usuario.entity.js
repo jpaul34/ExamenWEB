@@ -10,14 +10,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
-let VentasEntity = class VentasEntity {
+let UsuarioEntity = class UsuarioEntity {
 };
 __decorate([
     typeorm_1.PrimaryGeneratedColumn(),
     __metadata("design:type", Number)
-], VentasEntity.prototype, "id", void 0);
-VentasEntity = __decorate([
-    typeorm_1.Entity('venta')
-], VentasEntity);
-exports.VentasEntity = VentasEntity;
-//# sourceMappingURL=ventas.entity.js.map
+], UsuarioEntity.prototype, "id", void 0);
+UsuarioEntity = __decorate([
+    typeorm_1.Entity('usuario')
+], UsuarioEntity);
+exports.UsuarioEntity = UsuarioEntity;
+//# sourceMappingURL=usuario.entity.js.map

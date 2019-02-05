@@ -23,7 +23,7 @@ __decorate([
     common_1.Get(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
-    __metadata("design:returntype", String)
+    __metadata("design:returntype", Object)
 ], AppController.prototype, "root", null);
 AppController = __decorate([
     common_1.Controller(),

@@ -9,15 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const typeorm_1 = require("typeorm");
-let VentasEntity = class VentasEntity {
+const common_1 = require("@nestjs/common");
+const usuario_service_1 = require("./usuario.service");
+let ProductoController = class ProductoController {
+    constructor(_productoService) {
+        this._productoService = _productoService;
+    }
 };
-__decorate([
-    typeorm_1.PrimaryGeneratedColumn(),
-    __metadata("design:type", Number)
-], VentasEntity.prototype, "id", void 0);
-VentasEntity = __decorate([
-    typeorm_1.Entity('venta')
-], VentasEntity);
-exports.VentasEntity = VentasEntity;
-//# sourceMappingURL=ventas.entity.js.map
+ProductoController = __decorate([
+    common_1.Controller('usuario'),
+    __metadata("design:paramtypes", [usuario_service_1.UsuarioService])
+], ProductoController);
+exports.ProductoController = ProductoController;
+//# sourceMappingURL=usuario.controller.tx.js.map

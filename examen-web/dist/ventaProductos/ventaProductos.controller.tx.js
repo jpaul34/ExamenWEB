@@ -17,7 +17,7 @@ let ProductoController = class ProductoController {
     }
 };
 ProductoController = __decorate([
-    common_1.Controller('ventaProductos'),
+    common_1.Controller('ventaProducto'),
     __metadata("design:paramtypes", [ventaProductos_service_1.VentaProductosService])
 ], ProductoController);
 exports.ProductoController = ProductoController;

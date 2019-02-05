@@ -1,1 +1,1 @@
-{"version":3,"file":"ventas.entity.js","sourceRoot":"","sources":["../../src/ventas/ventas.entity.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,qCAA8G;AAG9G,IAAa,YAAY,GAAzB,MAAa,YAAY;CAKxB,CAAA;AAFC;IADC,gCAAsB,EAAE;;wCACd;AAHA,YAAY;IADxB,gBAAM,CAAC,KAAK,CAAC;GACD,YAAY,CAKxB;AALY,oCAAY"}
+{"version":3,"file":"ventas.entity.js","sourceRoot":"","sources":["../../src/ventas/ventas.entity.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,qCAA8G;AAG9G,IAAa,YAAY,GAAzB,MAAa,YAAY;CAKxB,CAAA;AAFC;IADC,gCAAsB,EAAE;;wCACd;AAHA,YAAY;IADxB,gBAAM,CAAC,OAAO,CAAC;GACH,YAAY,CAKxB;AALY,oCAAY"}
